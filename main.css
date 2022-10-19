@@ -1,0 +1,40 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    margin: 0 auto; 
+    width: 50%; 
+    padding: 2rem 0; 
+    background-color: rgb(135, 95, 173);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    padding: 1rem 0; 
+}
+.container p, h3 { 
+   padding: 1rem; 
+   font-size: 1rem;
+}
+.data-input {
+   margin-bottom: 1rem;  
+   width: 15 rem;   
+   border-radius: 0.2rem;
+}
+.submit-btn {
+    width: 10rem; 
+    height: 1.5rem; 
+    font-size: 1rem;
+    cursor: pointer;
+}
